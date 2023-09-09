@@ -8,9 +8,8 @@ const removeFromArray = function (array, garbage) {
 
 	distalList = [];
 	proximalList = [];
-	//
-	let i = array.length;
 
+	let i = array.length;
 	while (i > 0) {
 		//console.log(i);
 		poppedELement = array.pop();
