@@ -13,7 +13,6 @@ const sumAll = function (start, end) {
 			val++;
 			sum = sum + val;
 		}
-
 		return sum;
 	} else {
 		return 'ERROR';
